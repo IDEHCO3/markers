@@ -17,4 +17,4 @@ class Bookmark(models.Model):
     zoom = models.IntegerField(default=1)
     resourceType = models.CharField(choices=LIST, max_length=255, default='Communities')
     coordinates = models.CharField(max_length=1000, default='')
-    user = models.ForeignKey(User)
+    owner = models.ForeignKey(User)
