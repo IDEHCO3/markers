@@ -12,6 +12,7 @@ class Bookmark(models.Model):
         ('geoprojects', 'GeoProjects'),
     )
 
+    name = models.CharField(max_length=255)
     url_visual = models.CharField(max_length=1000)
     url_api = models.CharField(max_length=1000)
     zoom = models.IntegerField(default=1)
