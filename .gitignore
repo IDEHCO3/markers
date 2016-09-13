@@ -9,3 +9,6 @@
 
 #migrations folders
 */migrations/*
+
+#static files
+static_root/*
