@@ -12,3 +12,6 @@
 
 #static files
 static_root/*
+
+#nginx
+nginx/*

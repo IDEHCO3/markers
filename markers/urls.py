@@ -17,6 +17,6 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^idehco3/markers/admin/', include(admin.site.urls)),
-    url(r'^idehco3/markers/bookmarks/', include('bookmarker.urls', namespace='bookmarks'))
+    #url(r'^markers/admin/', include(admin.site.urls)),
+    url(r'^markers/bookmarks/', include('bookmarker.urls', namespace='bookmarks'))
 ]
